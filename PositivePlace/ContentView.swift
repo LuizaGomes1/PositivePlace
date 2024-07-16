@@ -3,7 +3,7 @@
 //  PositivePlace
 //
 //  Created by Scholar on 7/16/24.
-//
+// This is our app!!!
 
 import SwiftUI
 
