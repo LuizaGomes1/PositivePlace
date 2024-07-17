@@ -9,7 +9,26 @@ import SwiftUI
 
 struct socialView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      
+        ZStack {
+            Color(.ivory)
+                .ignoresSafeArea()
+            
+            VStack {
+                Text("Social Media")
+                    .font(.title)
+                    .foregroundColor(Color("royalBlue"))
+                
+                
+                Text("Social Media")
+            .font(.title2)
+            .foregroundColor(.ivory)
+            .frame(width: 275.0, height: 50.0)
+            .background(.powderBlue)
+            .cornerRadius(100.0)
+            }
+        }
+        
     }
 }
 
