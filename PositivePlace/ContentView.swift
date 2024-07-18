@@ -72,7 +72,6 @@ struct ContentView: View {
                     .background(.champagnePink)
                     .cornerRadius(100.0)
                     
-                    
                 }
                 .padding()
             }

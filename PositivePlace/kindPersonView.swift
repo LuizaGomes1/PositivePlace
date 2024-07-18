@@ -15,38 +15,55 @@ struct kindPersonView: View {
                 .ignoresSafeArea()
             
             VStack {
-                Text("How to be a kind person")
+                Text("How To Be A Kind Person")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .foregroundColor(Color.black)
-                Spacer()
-            
                 
-                Text("1.)Focus on others")
-                    .font(.title)
-                Text("2.)Offer a helping hand")
-                    .font(.title)
-                Text("3.)Be there to listen")
-                    .font(.title)
-                Text("4.)Smile at other")
-                    .font(.title)
-                Text("5.)Compliment others")
-                    .font(.title)
-                Text("6.)Expect good things to happen")
-                    .font(.title)
-                Text("7.)Have a positive mindset.")
-                    .font(.title)
-                Text("8.)Be hopeful even if its tough")
-                    .font(.title)
-                   
+                Spacer(minLength: 10)
                 
-                Text("Being Kind heals others and yourself!!")
-                    .font(.title3)
+                Text("1.) Focus on others")
+                    .font(.title)
+                    .foregroundColor(Color.black)
+                
+                Text("2.) Offer a helping hand")
+                    .font(.title)
+                    .foregroundColor(Color.black)
+                
+                Text("3.) Be there to listen")
+                    .font(.title)
+                    .foregroundColor(Color.black)
+                
+                Text("4.) Smile at others")
+                    .font(.title)
+                    .foregroundColor(Color.black)
+                
+                Text("5.) Compliment others")
+                    .font(.title)
+                    .foregroundColor(Color.black)
+                
+                Text("6.) Manifest good vibes")
+                    .font(.title)
+                    .foregroundColor(Color.black)
+               
+                Text("7.) Have a positive mindset")
+                    .font(.title)
+                    .foregroundColor(Color.black)
+                 
+                Spacer(minLength: 10)
+                
+                Text("Being kind heals others and yourself!!")
+                    .font(.title2)
                     .fontWeight(.bold)
+                    .foregroundColor(Color.black)
+                Spacer(minLength: 10)
+                
                 Text("Being kind lowers pain levels, relieving stress and anxiety, and increases life expectancy.")
-                    .font(.title3)
+                    .font(.title2)
                     .fontWeight(.bold)
+                    .foregroundColor(Color.black)
                 
+                Spacer(minLength: 10)
                 
             }
             .padding()

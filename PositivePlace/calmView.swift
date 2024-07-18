@@ -21,27 +21,56 @@ struct calmView: View {
                 
                 Text("Strategies To Calm Down")
                     .font(.largeTitle)
+                    .fontWeight(.heavy)
                     .foregroundColor(Color("emerald"))
                 
-                Text("1. Deep breaths")
+                Spacer(minLength: 10)
+                
+                Text("1. Take deep breaths")
+                    .font(.title)
+                    .foregroundColor(Color("ivory"))
                 
                 Text("2. Count back from ten")
+                    .font(.title)
+                    .foregroundColor(Color("ivory"))
                 
-                Text("3. Listen to claming music")
+                Text("3. Listen to calming music")
+                    .font(.title)
+                    .foregroundColor(Color("ivory"))
                 
                 Text("4. Think of a happy place")
+                    .font(.title)
+                    .foregroundColor(Color("ivory"))
                 
                 Text("5. Exercise your body")
+                    .font(.title)
+                    .foregroundColor(Color("ivory"))
+                
+                Spacer(minLength: 10)
                 
                 Text("Check the links for more")
+                    .font(.title)
+                    .foregroundColor(Color("ivory"))
                 
-                Text("https://health.clevelandclinic.org/how-to-calm-down")
+                Spacer(minLength: 5)
                 
-                Text("https://www.mind.org.uk/need-urgent-help/what-can-i-do-to-help-myself-cope/relaxing-and-calming-exercises/")
+                Link("How to calm down", destination: URL(string: "https://health.clevelandclinic.org/how-to-calm-down")!)
+                    .accentColor(.ivory)
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 
-                Text("https://www.healthline.com/health/how-to-calm-down")
+                Link("Calming exercises", destination: URL(string: "https://www.mind.org.uk/need-urgent-help/what-can-i-do-to-help-myself-cope/relaxing-and-calming-exercises/")!)
+                    .accentColor(.ivory)
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                     
+                Link("Calm yourself down", destination: URL(string: "https://www.healthline.com/health/how-to-calm-down")!)
+                    .accentColor(.ivory)
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 
-                Text("https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/relaxation-technique/art-20045368")
+                Link("Relaxation techniques", destination: URL(string: "https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/relaxation-technique/art-20045368")!)
+                    .accentColor(.ivory)
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                
+                Spacer(minLength: 10)
                 
             }
         }
